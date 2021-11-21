@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import me from './my_photo.jpg';
+import me from '/home/william/the-odin-project/other-projects/digital-business-card/src/images/my_photo.jpg';
 
 class CardHead extends Component {
   constructor() {
