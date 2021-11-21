@@ -9,7 +9,7 @@ class CardHead extends Component {
   render() {
     return (
       <div className="sectionContainer">
-        <img src={me} alt="Photo of me" />
+        <img src={me} alt="Photo of me" id="photo" />
         <h1>Billy Addesso</h1>
         <h2>Frontend Developer</h2>
         <p>wsa138.github.io/bootstrap-portfolio</p>
