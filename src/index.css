@@ -4,7 +4,7 @@
 }
 
 #root {
-  width: 320px;
+  width: 275px;
   display: flex;
   margin: auto;
   flex-direction: column;
@@ -19,4 +19,5 @@
 }
 
 #photo {
+  height: 300px;
 }
