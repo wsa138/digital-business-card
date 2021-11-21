@@ -1,7 +1,18 @@
-import React from 'react';
+import React, { Component } from 'react';
+import me from './my_photo.jpg';
 
-function CardHead() {
-  return <div>Testing</div>;
+class CardHead extends Component {
+  constructor() {
+    super();
+  }
+
+  render() {
+    return (
+      <div>
+        <img src={me} alt="Photo of me" />
+      </div>
+    );
+  }
 }
 
 export default CardHead;
