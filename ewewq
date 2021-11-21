@@ -1,0 +1,35 @@
+[33mcommit bb4dadf94b62f95440d3060a2e6dd667853108be[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: William Addesso <wsaddesso@gmail.com>
+Date:   Sun Nov 21 15:54:03 2021 -0500
+
+    Added CardBody.js and CardFooter.js along with components. Moved components into components folder.
+
+[33mcommit 1535f8758e1979be1075e29531a7cc837fad121f[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: William Addesso <wsaddesso@gmail.com>
+Date:   Sun Nov 21 01:43:33 2021 -0500
+
+    Added elements to CardHead.
+
+[33mcommit 4ecb948cc13826899119249d0fb06245023b55cd[m
+Author: William Addesso <wsaddesso@gmail.com>
+Date:   Sun Nov 21 01:38:42 2021 -0500
+
+    Created component that displays photo.
+
+[33mcommit b069fad0091f8c428deaec09bf55528b1a70b136[m
+Author: William Addesso <wsaddesso@gmail.com>
+Date:   Sun Nov 21 01:38:16 2021 -0500
+
+    Added photo.
+
+[33mcommit 7ed245c4fac6583ec0e156115fe8500c9711d0f0[m
+Author: William Addesso <wsaddesso@gmail.com>
+Date:   Sat Nov 20 19:22:38 2021 -0500
+
+    Cleaned up files. Created CardHead.js
+
+[33mcommit eaaefd1915edcf3b044b0bbe6634e1bbb0cb593d[m
+Author: William Addesso <wsaddesso@gmail.com>
+Date:   Sat Nov 20 18:20:49 2021 -0500
+
+    Initialize project using Create React App

@@ -8,7 +8,7 @@ class CardHead extends Component {
 
   render() {
     return (
-      <div>
+      <div className="sectionContainer">
         <img src={me} alt="Photo of me" />
         <h1>Billy Addesso</h1>
         <h2>Frontend Developer</h2>

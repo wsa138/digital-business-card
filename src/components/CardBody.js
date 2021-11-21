@@ -7,7 +7,7 @@ class CardBody extends Component {
 
   render() {
     return (
-      <div>
+      <div className="sectionContainer">
         <h3>About</h3>
         <h3>Interests</h3>
       </div>
