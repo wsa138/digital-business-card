@@ -8,13 +8,15 @@ class CardHead extends Component {
 
   render() {
     return (
-      <div className="sectionContainer">
+      <div className="sectionContainer" id="head">
         <img src={me} alt="Photo of me" id="photo" />
-        <h1>Billy Addesso</h1>
-        <h2>Frontend Developer</h2>
-        <p>wsa138.github.io/bootstrap-portfolio</p>
-        <button>Email</button>
-        <button>Linkedin</button>
+        <h1 id="name">Billy Addesso</h1>
+        <h2 id="role">Frontend Developer</h2>
+        <p id="githubLink">wsa138.github.io/bootstrap-portfolio</p>
+        <div id="buttonContainer">
+          <button id="email">Email</button>
+          <button id="linkedin">Linkedin</button>
+        </div>
       </div>
     );
   }

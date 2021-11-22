@@ -2,22 +2,100 @@
   margin: 0;
   padding: 0;
 }
+body {
+  background-color: rgb(48, 52, 75);
+}
 
 #root {
   width: 275px;
   display: flex;
   margin: auto;
+  margin-top: 50px;
   flex-direction: column;
-  padding: 50px 0;
+  border-radius: 5px;
 }
 
 .sectionContainer {
-  background-color: rgb(252, 182, 182);
+  background-color: rgb(27, 30, 48);
+  color: white;
   display: flex;
   flex-direction: column;
   text-align: center;
 }
 
+#head {
+  border-radius: 15px 15px 0 0;
+}
+
 #photo {
   height: 300px;
+  border-radius: 15px 15px 0 0;
+}
+
+#name {
+  font-size: 1.5em;
+  padding-top: 0.5em;
+}
+
+#role {
+  font-size: 1em;
+}
+
+#githubLink {
+  font-size: 0.75em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+#buttonContainer {
+  padding: 0 1em 0 1em;
+  display: flex;
+  justify-content: space-around;
+}
+
+#buttonContainer button {
+  width: 7.5em;
+  height: 2em;
+  border-radius: 5px;
+  margin: 1em 0 1em 0;
+}
+
+#email {
+  background-color: white;
+}
+
+#linkedin {
+  background-color: rgb(61, 208, 253);
+  color: white;
+  border-color: rgb(226, 226, 226);
+}
+
+#email:hover {
+  cursor: pointer;
+  background-color: rgb(218, 218, 218);
+}
+
+#linkedin:hover {
+  cursor: pointer;
+  background-color: rgb(43, 187, 231);
+}
+
+#body {
+  text-align: start;
+  padding: 1em;
+}
+
+h3 {
+  font-size: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.25em;
+}
+
+#body > p {
+  font-size: 0.75em;
+}
+
+#footer {
+  border-radius: 0 0 15px 15px;
+  background-color: rgb(17, 18, 29);
 }
